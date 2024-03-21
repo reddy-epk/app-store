@@ -27,39 +27,6 @@ In this project, let's build an **App Store** by applying the concepts we have l
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the **Social** tab should be active and the apps with **Social** as their category should be displayed
-- When a value is provided in the search input
-  - The apps in the active category, that include search input value in their name should be displayed
-  - When another tab is clicked, the apps in the corresponding category, that include search input value in their name should be displayed
-  - The search should be case insensitive
-- When the search input is empty,
-  - All the apps in the active category should be displayed
-  - When another tab is clicked, the apps in the corresponding category should be displayed
-- The `AppStore` component is provided with `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
-
-  |     Key     | Data Type |
-  | :---------: | :-------: |
-  |    tabId    |  String   |
-  | displayText |  String   |
-
-- The `AppStore` component is provided with `appsList`. It consists of a list of app objects with the following properties in each app object
-
-  |   Key    | Data Type |
-  | :------: | :-------: |
-  |  appId   |  Number   |
-  | appName  |  String   |
-  | imageUrl |  String   |
-  | category |  String   |
-
-</details>
 
 <details>
 <summary>Components Structure</summary>
@@ -141,9 +108,4 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
